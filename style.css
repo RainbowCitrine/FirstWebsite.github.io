@@ -1,0 +1,279 @@
+body{
+    margin: 0; 
+    background-color: #A0E7E5;
+}
+
+.menu{
+    margin: 0; 
+    padding: 12px; 
+    height: 22px; 
+    background-color: #FFC0CB;
+}
+.menu li{
+    display: inline; 
+    float: left; 
+    margin-top: -10px; 
+    padding: 10px 18px; 
+    text-align: center;
+}
+.button{
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    border: solid;
+    padding: 8px;  
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: #FFFF00;
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+/*
+#Name{
+    padding: 8px; 
+    margin-top: -4px;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+*/
+
+#Name{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722;
+    position: absolute; left: 50px; 
+}
+#p1{
+   position:relative; top: 90px; 
+   font-size: large;
+   border: solid;
+   border-width: 4px; 
+   border-radius: 10px;
+   font-family:'Roboto Condensed', sans-serif;
+   font-weight: bold;
+   border-color:white;
+   margin-left: 22px;
+   margin-right: 22px; 
+}
+#courses{
+        margin-top: 0px;
+        margin-bottom: 50px;
+        text-align: left;
+        font-family: sans-serif;
+        font-size: 3rem;
+        letter-spacing: 0.15rem;
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: -4px 4px #ef3550,
+                     -8px 8px #f48fb1,
+                     -12px 12px #7e57c2,
+                     -16px 16px #2196f3,
+                     -20px 20px #26c6da,
+                     -24px 24px #43a047,
+                     -28px 28px #eeff41,
+                     -32px 32px #f9a825,
+                     -36px 36px #ff5722;
+        position: relative; left: 50px; 
+
+}
+.classes{
+   position: relative; top: -50px; 
+   font-size: large; 
+   border: solid; 
+   border-width: 4px;
+   border-radius: 10px; 
+   font-family:'Roboto Condensed', sans-serif;
+   font-weight: bold; 
+   border-color: white;
+   margin-left: 22px;
+   margin-right: 22px; 
+}
+
+#CSCI{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+                 -8px 8px #f48fb1,
+                 -12px 12px #7e57c2,
+                 -16px 16px #2196f3,
+                 -20px 20px #26c6da,
+                 -24px 24px #43a047,
+                 -28px 28px #eeff41,
+                 -32px 32px #f9a825,
+                 -36px 36px #ff5722;
+    position: relative; left: 56px; top: -70px;
+}
+#CSP{
+   font-family:'Roboto Condensed', sans-serif;
+   font-size: large; 
+   border: solid; 
+   border-width: 4px;
+   border-radius: 10px; 
+   font-family:'Roboto Condensed', sans-serif;
+   font-weight: bold; 
+   border-color: white;
+   margin-left: 22px;
+   margin-right: 22px;
+   position: relative; top: -56px; 
+}
+.button-1{
+  background-color: pink;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative; left: 670px;  
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: auto;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+                 -8px 8px #f48fb1,
+                 -12px 12px #7e57c2,
+                 -16px 16px #2196f3,
+                 -20px 20px #26c6da,
+                 -24px 24px #43a047,
+                 -28px 28px #eeff41,
+                 -32px 32px #f9a825,
+                 -36px 36px #ff5722;
+    position: relative; left: 56px; top: -70px;
+}
+#ciswp{
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: large; 
+    border: solid; 
+    border-width: 4px;
+    border-radius: 10px; 
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: bold; 
+    border-color: white;
+    margin-left: 22px;
+    margin-right: 22px;
+    position: relative; top: -56px; 
+}
+.button-2{
+    background-color: pink;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative; left: 670px;  
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: auto;
+  }
+  
+  .button-2:hover,
+  .button-2:focus {
+    background-color: #F082AC;
+  }
+
+  #ciswp2{
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: large; 
+    border: solid; 
+    border-width: 4px;
+    border-radius: 10px; 
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: bold; 
+    border-color: white;
+    margin-left: 22px;
+    margin-right: 22px;
+    position: relative; top: -56px; 
+}
+.button-3{
+    background-color: pink;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative; left: 670px;  
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: auto;
+  }
+  
+  .button-3:hover,
+  .button-3:focus {
+    background-color: #F082AC;
+  }
